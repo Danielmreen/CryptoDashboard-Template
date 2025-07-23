@@ -1,0 +1,168 @@
+body {
+  font-family: 'Segoe UI';
+}
+
+.fsidebar {
+ 
+	height: 100%;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+  width:0;
+	border-right: 1px solid #D8D8D8;
+	background: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+	padding-top: 60px;
+	
+}
+.fsidebar ul{
+   margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+	display: grid;
+	gap: 8px;
+}
+.fsidebar ul li{
+padding: 14px 22px;
+	display: flex;
+	align-items: center;
+	gap: 18px;
+
+	color: var(--Text-Color, #ffffff);
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 130%;
+	/* 20.8px */
+	letter-spacing: 0.16px;
+
+	transition: .2s ease;
+}
+.fsidebar ul li svg {
+	min-width: 24px;
+}
+.fsidebar ul li:hover {
+	color: var(--Primary-Color, #3769FF) !important;
+	font-weight: 600 !important;
+
+	border-radius: 10px !important;
+	background: rgb(55 105 255 / 10%) !important;
+}
+.fsidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.1s;
+  list-style-type: none;
+}
+.fsidebar ul li:hover svg path,
+.mm-active li svg path {
+	stroke: #3769FF;
+}
+.fsidebar ul .spaced {
+	margin: 8px auto;
+}
+
+.fsidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#wrapper {
+  transition: margin-left .5s;
+  padding: 16px;
+  
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .fsidebar {padding-top: 15px;}
+  .fsidebar a {font-size: 18px;}
+}
+
+@media only screen and (300px <= width <= 800px) {
+  /*
+  .fsidebar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom:0;
+    
+  }
+  .fsidebar a {float: left;width:15%;text-align:center}
+  div.content {margin-left: 0;}
+   */
+  body{
+    
+    max-width: 100%;
+    zoom:0.65;
+    font-size:20px;
+    
+  }
+  
+  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    display:inline-flex;
+  }
+  .ms-auto{
+     margin-left:auto;
+  }
+  .col-md-3{
+    display:grid;
+    width:40%;
+  }
+  .d-grid{
+    display:block !important;
+    max-width: 60%;
+  }
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    width:fit-content;
+    margin:0px;
+    
+  }
+ 
+  #page-content-wrapper{
+    max-width: fit-content;
+  }
+  #page-content-wrapper > nav{
+    max-width: fit-content;
+  }
+  #page-content-wrapper > div > div.row.mb-4{
+    max-width: 90%;
+  }
+  #page-content-wrapper > div{
+    width:fit-content;
+  }
+  #page-content-wrapper > div > div:nth-child(2) > div.d-grid.mt-40 > div:nth-child(2) > h1{
+    margin: 10px;
+  }
+  #page-content-wrapper > div > div:nth-child(3){
+
+    width:100%;
+  }
+ 
+  
+}
+
+  
