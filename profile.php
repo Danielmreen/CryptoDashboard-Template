@@ -19,11 +19,11 @@
       <h2 class="text-dark">Profile Details </h2>
       <div class="form-group" style="width:350px">
       <label for="usr" style="margin:8px">Username</label>
-      <input type="text" class="form-control form-control-lg" id="usr" placeholder="Username">
+      <input type="text" class="form-control form-control-lg" id="usr" value="Username">
       </div>
       <div class="form-group" style="width:350px">
       <label for="email" style="margin:8px">Email address</label>
-      <input type="text" class="form-control form-control-lg" id="email" placeholder="sample@gmail.com">
+      <input type="text" class="form-control form-control-lg" id="email" value="sample@gmail.com">
       </div>
       <br>
       <button type="button" class="btn btn-primary active">Save</button>

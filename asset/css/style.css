@@ -9,7 +9,7 @@
 body {
 	margin: 0px;
 	line-height: inherit;
-	font-family: 'Segoe UI';
+	font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .header__desk {

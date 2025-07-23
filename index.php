@@ -20,7 +20,7 @@
                 <div class="row mb-4">
                     <div class="col-md-3">
                         <div class="card text-dark mb-3" style="border-radius: 15px;">
-                            <div class="card-body" style="background-color:linear-gradient(90deg,#020024 0%, #090979 35%, #00d4ff 100%);border-radius: 15px;";>
+                            <div class="card-body" style="background-color:#4479e1;border-radius: 15px;";>
                                 <h5 class="card-title"><i class="fa-brands fa-dollar-sign me-2 text-warning"></i>Main Balance</h5>
                                 
                                 <p class="card-text fs-4">$4000.00</p>
@@ -38,7 +38,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="card text-dark mb-3" style="border-radius: 15px;">
-                            <div class="card-body" style="background-color:linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);border-radius: 15px;";>
+                            <div class="card-body" style="background-color:#4479e1;border-radius: 15px;";>
                                 <h5 class="card-title"><i class="fa-solid fa-dollar-sign me-2 text-warning"></i>Total Withdrawal</h5>
                                 <p class="card-text fs-4">$0.00</p>
                                 <!--<p class="card-text text-success">$5,000.00</p>-->

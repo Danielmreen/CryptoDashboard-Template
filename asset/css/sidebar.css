@@ -1,5 +1,5 @@
 body {
-  font-family: 'Segoe UI';
+  font-family: "Lato", sans-serif;
 }
 
 .fsidebar {
@@ -11,7 +11,7 @@ body {
 	top: 0;
   width:0;
 	border-right: 1px solid #D8D8D8;
-	background: #000000;
+	background: #FFF;
   overflow-x: hidden;
   transition: 0.5s;
 	padding-top: 60px;
@@ -31,7 +31,7 @@ padding: 14px 22px;
 	align-items: center;
 	gap: 18px;
 
-	color: var(--Text-Color, #ffffff);
+	color: var(--Text-Color, #011427);
 	font-family: Inter;
 	font-size: 16px;
 	font-style: normal;
